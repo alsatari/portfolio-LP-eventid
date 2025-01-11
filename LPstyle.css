@@ -1,5 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-.navbar{
-    background: white; font-family: "Roboto", serif
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    min-height: 100vh; /*this is to ensure that the content occupies the entire page*/
+}
+nav{
+    background: white; 
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto", serif;
+}
+
+nav ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav li{
+    height: 50px;
+}
+
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color: #354151;
+    font-weight: bold;
+}
+
+nav a:hover{
+    background-color: #f0f0f0;
+}
+
+.logo{
+    height: 35px;
+    width: 150px;
 }
